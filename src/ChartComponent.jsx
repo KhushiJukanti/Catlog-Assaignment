@@ -69,13 +69,13 @@ const ChartComponent = () => {
                 annotations: {
                     line1: {
                         type: 'line',
-                        xMin: 2, // X-axis index for the 5th day (0-based index)
-                        xMax: 2,
-                        borderColor: 'rgba(0, 0, 0, 0.1)',
+                        xMin: 2.7, // X-axis index for the 5th day (0-based index)
+                        xMax: 2.7,
+                        borderColor: 'rgba(0, 0, 0, 0.5)',
                         borderWidth: 1,
                         borderDash: [5, 5],
                         label: {
-                            content: '10th Day',
+                            content: '25th Day',
                             enabled: false, // Hide label
                         },
                     },
@@ -83,7 +83,7 @@ const ChartComponent = () => {
                         type: 'line',
                         yMin: 64850.25,
                         yMax: 64850.25,
-                        borderColor: 'rgba(200, 200, 200, 0.3)',
+                        borderColor: 'rgba(0, 0, 0, 0.5)',
                         borderWidth: 1,
                         borderDash: [10, 5],
                         label: {
