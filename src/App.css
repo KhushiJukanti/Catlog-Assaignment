@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -24,15 +24,29 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.custom-nav .custom-link {
+  font-size: 14px; /* Decrease font size */
+  color: #000; /* Default color */
+  border: none; /* Remove default border */
+  padding: 0.5rem 1rem; /* Add padding for better spacing */
+  border-bottom: 3px solid transparent; /* Default transparent underline */
+  cursor: default; /* Prevent pointer cursor */
+  text-decoration: none; /* Remove any text decoration */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.custom-nav .custom-link.active {
+  color: #007bff; /* Active tab color */
+  border-bottom: 3px solid #007bff; /* Blue underline for the active tab */
+  font-weight: bold; /* Make the active tab bold if needed */
 }
+
+
+.no-underline {
+  text-decoration: none !important; /* Remove text underline */
+  padding: 0; /* Adjust padding if needed */
+}
+
+
+
