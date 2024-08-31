@@ -103,7 +103,7 @@ const ChartComponent = () => {
     };
 
     return (
-        <Container className="mt-3 p-4 border rounded" style={{ maxWidth: '1000px', backgroundColor: '#fff' }}>
+        <Container className="mt-3 p-4 border rounded" style={{ maxWidth: '800px', backgroundColor: '#fff' }}>
             <Row className="mb-3">
                 <Col>
                     <h2 style={{ color: '#282c34' }}>63,179.71 <span style={{ fontSize: '1rem', color: '#999' }}>USD</span></h2>
@@ -134,7 +134,7 @@ const ChartComponent = () => {
                         Compare
                     </Button>
                 </Col>
-                <Col className="text-end" style={{marginRight:'100px'}}>
+                <Col className="text-end" style={{marginRight:'50px'}}>
                     {['1d', '3d', '1w', '1m', '6m', '1y', 'max'].map((range, index) => (
                         <Button
                             key={index}
